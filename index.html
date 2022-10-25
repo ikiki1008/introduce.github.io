@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">	
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>HTML5 개인 포트폴리오 홈페이지</title>
+<!-- <link rel="stylesheet" type="text/css" href="index_css.css"/> -->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+<link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+<!-- minify -->
+<link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+<!-- latest -->
+<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+<!-- core style only -->
+<link href="https://unpkg.com/nes.css/css/nes-core.min.css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=IBM+Plex+Sans+KR:wght@500&family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+	/* @import "./node_modules/nes.css/css/nes.css" */
+
+	.page{
+		background-color: white;
+		padding:3%;
+	}
+
+	#img{ text-align: center;}
+	#link{ text-align: center;}
+	.page{padding: 3%;}
+	#icons{text-align: center;}
+	#balloon{text-align: center;}
+	#balloon2{text-align: center;}
+	#balloon3{text-align: center;}
+	#charactor{text-align: right;}
+</style>
+<body>
+	<div data-role="page" class="page">
+		<div id="balloon">
+			<p class="nes-balloon from-left nes-pointer" id="balloon" text-align="center">
+				Welcone to visit my CV webpage
+			</p>
+		</div>
+		<br>
+
+		<!-- <a class="nes-btn" href="#">Normal</a> -->
+		<button type="button" class="nes-btn is-primary" onclick="location.href='index.html'">MAIN</a></button>
+		<button type="button" class="nes-btn is-success"  onclick="location.href='hobby.html'">HOBBY</a></button>
+		<button type="button" class="nes-btn is-warning" onclick="location.href='mcareer.html'">CAREER</a></button>
+		<button type="button" class="nes-btn is-error"  onclick="location.href='historyy.html'">HISTORY</a></button>
+		<br><br>
+
+		<section class="nes-container">
+			<section class="message-list">
+			  <section class="message -left">
+				<i class="nes-bcrikko"></i>
+				<!-- Balloon -->
+				<div class="nes-balloon from-left">
+				  <p>Hello NES.css</p>
+				</div>
+			  </section>
+		  
+			  <section class="message -right">
+				<!-- Balloon -->
+				<div class="nes-balloon from-right">
+				  <p>이거 바꾸는거 겁나 귀찮아서 포기합니다</p>
+				</div>
+				<i class="nes-bcrikko"></i>
+			  </section>
+			</section>
+		  </section>
+
+		<br>
+		<div id="img">
+			<img src="self.jpeg" width="300" height="400">
+		</div>
+		<br>
+		<section class="icon-list" id="link">
+			<!-- twitter -->
+			<i class="nes-icon twitter is-large"></i>
+			<!-- instagram -->
+			<i class="nes-icon instagram is-large"></i>
+			<!-- github -->
+			<i class="nes-icon github is-large"></i>
+			<!-- gmail -->
+			<i class="nes-icon gmail is-large"></i>
+		</section>
+		<br>
+		<div class="nes-container is-rounded">
+			<p>Name : Oh Yugyeong</p>
+		</div>
+		<div class="nes-container is-rounded is-dark">
+			<p>Birth Day : 1996 10 08</p>
+		</div>
+		<div class="nes-container is-rounded">
+			<p>Address : 부산시 사하구 사하로 146</p>
+		</div>
+		  
+		<div class="nes-container is-rounded is-dark">
+			<p>Number : 010 8478 3159</p>
+		</div>
+
+		<br><br><br>
+		<section class="icon-list">
+			<!-- Copyright Nintendo -->
+			<!-- <i class="nes-mario"></i>
+			<i class="nes-ash"></i>
+			<i class="nes-pokeball"></i> -->
+			<div id="balloon3">
+				<p class="nes-balloon from-left nes-pointer">
+					She's major in Computer Science I heard
+				</p>
+			</div>
+			
+			<i class="nes-charmander"></i><br>
+			<div id="balloon2">
+				<p class="nes-balloon from-right nes-pointer">
+					That's correct
+				</p>
+			</div>
+			<div id="charactor">
+				<i class="nes-squirtle"></i>
+				<i class="nes-kirby"></i> 
+			</div>
+		</section>
+
+		<br><br><br>
+		<section class="icon-list" id="icons">
+			<!-- heart -->
+			<h2>Energy?</h2>
+			<i class="nes-icon is-large heart"></i>
+			<i class="nes-icon is-large heart"></i>
+			<i class="nes-icon is-large is-half heart"></i>
+			<i class="nes-icon is-large is-transparent heart"></i>
+			<i class="nes-icon is-large is-transparent heart"></i>
+			<br>
+			<!-- star -->
+			<h2>Fame?</h2>
+			<i class="nes-icon is-large star"></i>
+			<i class="nes-icon is-large star"></i>
+			<i class="nes-icon is-large star"></i>
+			<i class="nes-icon is-large star"></i>
+			<!-- <i class="nes-icon is-large star is-half"></i> -->
+			<i class="nes-icon is-large star is-transparent"></i>
+		  
+			<!-- like -->
+			<h2>Life?</h2>
+			<i class="nes-icon is-large like"></i>
+			<i class="nes-icon is-large like"></i>
+			<i class="nes-icon is-large like"></i>
+			<i class="nes-icon is-large like is-empty"></i>
+			<i class="nes-icon is-large like is-empty"></i>
+		</section>
+
+		<br><br><br>
+		<div class="nes-container with-title is-centered">
+			<p class="title">Footer</p>
+			<p>All copyrights by NES.CSS and transformed by Mia</p>
+		</div>
+	</div>
+</body>
+</html>
